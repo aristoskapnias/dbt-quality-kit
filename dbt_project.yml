@@ -1,0 +1,6 @@
+name: dbt_quality_kit
+version: 0.1.0
+config-version: 2
+
+# Tell dbt this package only ships macros/tests, no models
+macro-paths: ["macros"]
